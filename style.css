@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0f7fa;
+    margin: 0;
+}
+
+#conch-container {
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+#conch-container:active {
+    transform: scale(0.95);
+}
